@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="/icons8-iron-man-16.png" type="image/x-icon">
+    <link rel="shortcut icon" href="./icon.png" type="image/x-icon">
     <link rel="stylesheet" href="./estilos.css"/>
     <title>IROMAN</title>
 </head>
@@ -28,11 +28,14 @@
     <h2>Formulario de contacto</h2>
     <hr>
     <br/><br/>
-    <form>
-        <label><b>E-mail:</b></label>
-        <input type="email"/>
+    <form action="./formulariook.html">
+        <label><b>Nombre:</b></label>
+        <input placeholder="su nombre" type="text"/>
         <br/><br/>
-        <label><b>Sos fan de IronMan?</b></label>
+        <label><b>E-mail:</b></label>
+        <input placeholder="ejemplo@mail.com" type="email"/>
+        <br/><br/><br/><br/>
+        <p><b>Sos fan de IronMan?</b></p>
         <fieldset id="group1">
             <label><i>si</i></label>
             <input type="radio" name="group1"/>
@@ -40,8 +43,16 @@
             <input type="radio" name="group1"/>
 
         </fieldset>
+        
+        <p><b>que formatos te gustan?</b></p>
+        <input type="checkbox">
+        <label>pelicula</label>
+        <input type="checkbox">
+        <label>comics</label>
+        <input type="checkbox">
+        <label>animacion</label>
 
-        <br/><br/>
+        <br/><br/><br/><br/>
         <label><strong>Traje preferido:</strong></label>
         <select>
             <option>Mark I</option>
@@ -53,7 +64,7 @@
         </select>
         <br/><br/>
         <label><em>Mensaje:</em></label>
-        <textarea rows="5"></textarea>
+        <textarea placeholder="su mensaje"  rows="5"></textarea>
         <input type="submit"/>
     </form>
 
@@ -64,6 +75,8 @@
     <footer>
         <p>Derechos reservados &copy; 2024</p>
     </footer>
+
+    
     
 </body>
 </html>

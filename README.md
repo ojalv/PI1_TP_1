@@ -1,5 +1,16 @@
 ## Proyecto Integrador I – 2024
 
+Grupo 3
+autores:
+Ordoñez Juan
+Videla Jorge
+Ojeda Alvaro
+Jaimes Nazarena
+Martinez Emilse
+Pasetti Dino
+
+
+
 **Instituto Superior Santa Rosa de Calamuchita**  
 **División 1ro A, Profesor – Javier Bozzo**
 
